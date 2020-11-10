@@ -1,5 +1,5 @@
 {
-  "name": "Node + Pg + Socket.IO example",
+  "name": "Node_Pg_SocketIO_example",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
