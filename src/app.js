@@ -4,11 +4,8 @@ const http = require('http').Server(app)
 
 var io = require('socket.io')(http)
 //io.origins('http://localhost:8080')
-
 io.on('connection', function(socket){
-  socket.on('chat message', function(msg){
-    io.emit('chat message', msg)
-  })
+  require('./socket/chat.socket')(io, socket)
 })
 
 app.use(express.urlencoded({ extended: true }))
