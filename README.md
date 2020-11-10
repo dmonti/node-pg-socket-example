@@ -14,7 +14,10 @@ Install nodemon and start the app:
 [nodemon] starting `node index.js`
 listening on *:3000
 ```
-Then open your at:
+Then open your browser at:
+http://localhost:3000
+
+To see server info:
 http://localhost:3000/info
 
 For database connection, you must configure the `.env` file.
