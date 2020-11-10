@@ -3,8 +3,9 @@ Node + PostgreSQL + Socket.IO examples
 
 Install nodemon and start the app:
 ```
-> npm install -g nodemon
 > cd <path>/node-pg-socket-example
+> npm install
+> npm install -g nodemon
 > nodemon
 [nodemon] 2.0.6
 [nodemon] to restart at any time, enter `rs`
